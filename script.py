@@ -42,12 +42,12 @@ headers = {
     "X-Signature-256": f"sha256={signature}"
 }
 
-# # Send the POST request to the specified URL with the payload data and headers
-# remote_url = os.getenv("REMOTE_ADDRESS")
-# response = requests.post(
-#     remote_url,
-#     data=payload_data,
-#     headers=headers
-# )
+# Send the POST request to the specified URL with the payload data and headers
+remote_url = os.getenv("REMOTE_ADDRESS")
+response = requests.post(
+    remote_url,
+    data=payload_data,
+    headers=headers
+)
 
-# print("Response: ", response.json())
+print("Response: ", response.json())
