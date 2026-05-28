@@ -16,7 +16,7 @@ data = {
     "email": "napitsakun@gmail.com",
     "resume_link": "https://sakuntalanapit.com.np/assets/Sakuntala-Napit-Resume.pdf",
     "repository_link": "https://github.com/napitsakun/pyci-runner",
-    "action_run_link": ""
+    "action_run_link": "https://github.com/napitsakun/pyci-runner/actions/runs/26552175390/job/78216379090"
 }
 
 # Encode the payload data to bytes
